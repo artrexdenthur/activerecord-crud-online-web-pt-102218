@@ -5,9 +5,9 @@
 #   movie = __                     #   movie = Movie.new
 # end                              # end
 
-def can_be_instantiated_and_then_saved(title)
+def can_be_instantiated_and_then_saved
   movie = Movie.new
-  movie.title = title
+  movie.title = "default"
   movie.save
 end
 
